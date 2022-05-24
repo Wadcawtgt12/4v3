@@ -12,9 +12,9 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['628816563424']
-global.premium = ['628816563424']
-global.ownername = 'Cloudh'
+global.owner = ['62895411143170']
+global.premium = ['62895411143170']
+global.ownername = 'Sean'
 global.botname = 'Tia-Bot'
 global.packname = '✨ Sean ✨'
 global.gc = 'https://setiawangmg.blogspot.com/'
