@@ -3,18 +3,18 @@ const chalk = require('chalk')
 
 // Website Api
 global.APIs = {
-	zenz: 'https://zenzapi.xyz',
+	zenz: 'https://zenzapis.xyz',
 }
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapi.xyz': 'D2F1E747F5',
+	'https://zenzapis.xyz': 'D2F1E747F5',
 }
 
 // Other
-global.owner = ['628816563424']
-global.premium = ['628816563424']
-global.ownername = 'Cloudh'
+global.owner = ['62895411143170']
+global.premium = ['62895411143170']
+global.ownername = 'Sean'
 global.botname = 'Tia-Bot'
 global.packname = '✨ Sean ✨'
 global.gc = 'https://setiawangmg.blogspot.com/'
