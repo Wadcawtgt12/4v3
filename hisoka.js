@@ -90,10 +90,10 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
             if (typeof chats !== 'object') global.db.data.chats[m.chat] = {}
             if (chats) {
                 if (!('mute' in chats)) chats.mute = false
-                if (!('antilink' in chats)) chats.antilink = false
+                if (!('antilink' in chats)) chats.antilink = true
             } else global.db.data.chats[m.chat] = {
                 mute: false,
-                antilink: false,
+                antilink: true,
             }
 		
 	    let setting = global.db.data.settings[botNumber]
@@ -644,12 +644,6 @@ Alya
                 }
             }
             break
-            case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
-            if (!m.quoted && !text) throw `Kirim/reply text dengan caption ${prefix + command}`
-            ter = command[1].toLowerCase()
-            tex = m.quoted ? m.quoted.text ? m.quoted.text : q ? q : m.text : q ? q : m.text
-            m.reply(tex.replace(/[aiueo]/g, ter).replace(/[AIUEO]/g, ter.toUpperCase()))
-            break
             case 'tebak': {
                 if (!text) throw `Example : ${prefix + command} lagu\n\nOption : \n1. lagu\n2. gambar\n3. kata\n4. kalimat\n5. lirik\n6.lontong`
                 if (args[0] === "lagu") {
@@ -1035,43 +1029,7 @@ case 'welcome':{
 			if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
 					await 
-    m.reply('──⸙̣᭢➯[HLO NEW MEM] ⬅️✅\n┊ ╰────╯╰࿎࿎─── ︿︿︿︿︿ .\n╭❀:ཻུ۪۪─────────────────╮\n┊🌼┊╰─❒Nama= \n┊🍃┊╰─❒Umur= \n┊🍂┊╰─❒Cewe/Cowo= \n┊🌻┊╰─❒Bekerja/pelajar= \n┊🥀┊╰─❒Niat masuk grup= \n╰─❀ TOLONG PATUHI RULES!!🐣✨\n:ཻུ۪۪────────────────╯*\n✧ ⃟ ⃟ ━━━ೋ๑୨۝୧๑ೋ━━━ ⃟ ⃟ ✧')
-}
-	break
-case 'sayang':{
-	         if (!isCreator) throw mess.owner
-					await 
-    m.reply('Iya sayang❤️ , kenapa?')
-}
-	break   
-case 'iya_kan_sayang':{
-	         if (!isCreator) throw mess.owner
-					await 
-    m.reply('Iya sayang❤️')
-}
-	break
-case 'kangen':{
-	         if (!isCreator) throw mess.owner
-					await 
-    m.reply('Uhhhh sayang, aku juga kangen >/////<')
-}
-	break
-case 'lagi_apa?':{
-	if (!isCreator) throw mess.owner
-					await 
-    m.reply('Lagi baca chat orang sayang')
-}
-	break
-case 'sibuk_ya?':{
-	if (!isCreator) throw mess.owner
-					await 
-    m.reply('Enggak kok, aku kan selalu ada buat kamu🥰')
-}
-	break
-case 'jadi_makin_sayang_deh':{
-            if (!isCreator) throw mess.owner
-					await 
-    m.reply('Aku juga makin sayang sama kamu 🥰')
+    m.reply('──⸙̣᭢➯[HLO NEW MEM] \n┊ ╰────╯╰࿎࿎─── ︿︿︿︿︿ .\n╭❀:ཻུ۪۪─────────────────╮\n┊🌼┊╰─❒Nama= \n┊🍃┊╰─❒Umur= \n┊🍂┊╰─❒Cewe/Cowo= \n┊🌻┊╰─❒Bekerja/pelajar= \n┊🥀┊╰─❒Niat masuk grup= \n╰─❀ TOLONG PATUHI RULES!!🐣✨\n:ཻུ۪۪────────────────╯*\n✧ ⃟ ⃟ ━━━ೋ๑୨۝୧๑ೋ━━━ ⃟ ⃟ ✧')
 }
 	break
 case 'introda2old': case 'da2old':{
