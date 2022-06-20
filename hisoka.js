@@ -936,14 +936,33 @@ case 'introda3old': case 'da3old':{
     m.reply('──⸙̣᭢➯[HLO NEW MEM] ⬅️✅\n┊ ╭────╮╭࿎࿎─── ︿︿︿︿︿ .\n┊〲━❋✨    ̲Welcome Dunia Anime 3_\n┊ ╰────╯╰࿎࿎─── ︿︿︿︿︿ .\n╭❀:ཻུ۪۪─────────────────╮\n┊🌼┊╰─❒Nama= \n┊🍃┊╰─❒Umur= \n┊🍂┊╰─❒Cewe/Cowo= \n┊🌻┊╰─❒Bekerja/pelajar= \n┊🐣┊╰─❒Komik Fav=  \n┊🥀┊╰─❒Niat masuk grup= \n╰─❀ TOLONG PATUHI RULES!!🐣✨\n:ཻུ۪۪────────────────╯*\n✧ ⃟ ⃟ ━━━ೋ๑୨۝୧๑ೋ━━━ ⃟ ⃟ ✧')
 }
 	break
-		case 'introda3': case 'da3':{
+		case 'introda3old1': case 'da3old1':{
 			if (!m.isGroup) throw mess.group
                 if (!isBotAdmins) throw mess.botAdmin
 					await 
     m.reply('『WELLCOME TO DUNIA ANIME』 \n•═══════════════════•\n                INTRO\n• Nama : \n\n• Umur : \n\n• Asal kota : \n\n• Anime favorit : \n\n• Komik favorit : \n\n•═══════════════════•\n\n ♡Selamat bergabung semoga betah♡')
 }
 	break
+		case 'introda3': case 'da3':{
+			if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+					await 
+    m.reply('『WELLCOME TO DUNIA ANIME③』 \n•═══════════════════•\n                INTRO\n• Nama :\n\n• Umur : \n\n• Asal kota : \n\n• Anime favorit : \n\n• Komik favorit : \n\n•═══════════════════•\n\n ♡Selamat bergabung semoga betah♡')
+}
+	break
+case 'introdaold1': case 'daold1':{
+			if (!m.isGroup) throw mess.group
+					await 
+    m.reply('*『WELLCOME TO DUNIA ANIME』* \n•═══════════════════•\n                *INTRO*\n• *Nama :*\n \n• *Umur :* \n\n• *Asal kota :* \n\n• *Anime/manga/manhua/manhwa favorit :* \n\n• *Karakter favorit :* \n\n•═══════════════════•\n\n ```♡Selamat bergabung semoga betah♡```')
+}
+	break
 case 'introda': case 'da':{
+			if (!m.isGroup) throw mess.group
+					await 
+    m.reply('『WELLCOME TO DUNIA ANIME』 \n•═══════════════════•\n                INTRO\n• Nama :\n\n• Umur : \n\n• Asal kota :\n\n• Anime favorit :\n\n• Wibu/otaku/cosplayer :\n\n•═══════════════════•\n\n ♡Selamat bergabung semoga betah♡')
+}
+	break
+case 'introda1old1': case 'da1old1':{
 			if (!m.isGroup) throw mess.group
 					await 
     m.reply('*『WELLCOME TO DUNIA ANIME』* \n•═══════════════════•\n                *INTRO*\n• *Nama :*\n \n• *Umur :* \n\n• *Asal kota :* \n\n• *Anime/manga/manhua/manhwa favorit :* \n\n• *Karakter favorit :* \n\n•═══════════════════•\n\n ```♡Selamat bergabung semoga betah♡```')
@@ -952,19 +971,31 @@ case 'introda': case 'da':{
 case 'introda1': case 'da1':{
 			if (!m.isGroup) throw mess.group
 					await 
-    m.reply('*『WELLCOME TO DUNIA ANIME』* \n•═══════════════════•\n                *INTRO*\n• *Nama :*\n \n• *Umur :* \n\n• *Asal kota :* \n\n• *Anime/manga/manhua/manhwa favorit :* \n\n• *Karakter favorit :* \n\n•═══════════════════•\n\n ```♡Selamat bergabung semoga betah♡```')
+    m.reply('『WELLCOME TO DUNIA ANIME①』 \n•═══════════════════•\n                INTRO\n• Nama :\n\n• Umur : \n\n• Asal kota : \n\n• Anime favorit : \n\n• Donghua favorit : \n\n•═══════════════════•\n\n Selamat bergabung semoga betah')
 }
 	break
-case 'introda2': case 'da2':{
+case 'introda2old1': case 'da2old1':{
 			if (!m.isGroup) throw mess.group
 					await 
     m.reply('*『WELLCOME TO DUNIA ANIME』* \n•═══════════════════•\n                *INTRO*\n• *Nama :*\n \n• *Umur :* \n\n• *Asal kota :* \n\n• *Anime/manga/manhua/manhwa favorit :* \n\n*• Menggambar/art :* \n\n•═══════════════════•\n\n ```♡Selamat bergabung semoga betah♡```')
 }
 	break
-case 'introdaofc': case 'daofc':{
+		case 'introda2': case 'da2':{
+			if (!m.isGroup) throw mess.group
+					await 
+    m.reply('『WELLCOME TO DUNIA ANIME②』 \n•═══════════════════•\n                INTRO\n• Nama :\n\n• Umur : \n\n• Asal kota : \n\n• Anime favorit :\n\n• Art tradi/art digi :\n\n•═══════════════════•\n\n ♡Selamat bergabung semoga betah♡')
+}
+	break
+case 'introdaofcold1': case 'daofcold1':{
 			if (!m.isGroup) throw mess.group
 					await 
     m.reply('*『WELLCOME TO DUNIA ANIME』* \n•═══════════════════•\n                *INTRO*\n• *Nama :*\n \n• *Umur :* \n\n• *Asal kota :* \n\n• *Anime/manga/manhua/manhwa favorit :* \n\n• *Karakter favorit :* \n\n•═══════════════════•\n\n ```♡Selamat bergabung semoga betah♡```')
+}
+	break
+case 'introdaofc': case 'daofc':{
+			if (!m.isGroup) throw mess.group
+					await 
+    m.reply('『WELLCOME TO DUNIA ANIME』 \n•═══════════════════•\n                INTRO\n• Nama :\n\n• Umur : \n\n• Asal kota :\n\n• Anime favorit :\n\n• Wibu/otaku/cosplayer :\n\n•═══════════════════•\n\n ♡Selamat bergabung semoga betah♡')
 }
 	break
 case 'introda1old': case 'da1old':{
