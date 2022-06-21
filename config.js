@@ -22,7 +22,7 @@ global.limitawal = '10'
 global.author = 'Sean'
 global.sessionName = 'session'
 global.prefa = ['#','!','.']
-global.sp = '⌕'
+global.sp = '=>>'
 global.mess = {
     success: 'Berhasil',
     admin: 'Fitur Khusus Admin Group!',
