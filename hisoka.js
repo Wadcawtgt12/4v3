@@ -575,7 +575,7 @@ Dont Forget Donate
 	                let btn = [{
                                 urlButton: {
                                     displayText: 'Web Owner',
-                                    url: 'https://setiawangmg.blogspot.com'
+                                    url: 'https://animeforallhuman.blogspot.com'
                                 }
                             }]
                         hisoka.send5ButImg(m.chat, anu, botname, global.sc, btn)
@@ -600,7 +600,7 @@ Alya
 	                let btn = [{
                                 urlButton: {
                                     displayText: 'Web Owner',
-                                    url: 'https://setiawangmg.blogspot.com'
+                                    url: 'https://animeforallhuman.blogspot.com'
                                 }
                             }]
                         hisoka.send5ButImg(m.chat, anu, botname, global.tq, btn)
@@ -1288,6 +1288,8 @@ break
              break
             case 'linkgroup': case 'linkgc': {
                 if (!m.isGroup) throw mess.group
+                if (!isBotAdmins) throw mess.botAdmin
+                if (!isAdmins) throw mess.admin
                 let response = await hisoka.groupInviteCode(m.chat)
                 hisoka.sendText(m.chat, `https://chat.whatsapp.com/${response}\n\nLink Group : ${groupMetadata.subject}`, m, { detectLink: true })
             }
@@ -1322,8 +1324,8 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    displayText: 'Web',
+                                    url: 'https://animeforallhuman.blogspot.com/'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -1341,8 +1343,8 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    displayText: 'Web',
+                                    url: 'https://animeforallhuman.blogspot.com/'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -1619,7 +1621,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Web Owner',
-                                    url: 'https://setiawangmg.blogspot.com'
+                                    url: 'https://animeforallhuman.blogspot.com/'
                                }
                             }, {
                                 quickReplyButton: {
@@ -3029,7 +3031,7 @@ untuk membuat stiker dan lain lain
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Web Owner',
-                                    url: 'https://setiawangmg.blogspot.com'
+                                    url: 'https://animeforallhuman.blogspot.com/'
                                 }
                             }, {
                                 quickReplyButton: {
