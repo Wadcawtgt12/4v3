@@ -8,7 +8,7 @@ global.APIs = {
 
 // Apikey Website Api
 global.APIKeys = {
-	'https://zenzapis.xyz': 'D2F1E747F5',
+	'https://zenzapis.xyz': '9c66cb5522ec',
 }
 
 // Other
@@ -16,8 +16,8 @@ global.owner = ['62895411143170']
 global.premium = ['62895411143170']
 global.ownername = 'Sean'
 global.botname = 'Tia-Bot'
-global.packname = '✨ Sean ✨'
-global.gc = 'https://setiawangmg.blogspot.com/'
+global.packname = 'https://animeforallhuman.blogspot.com/'
+global.gc = 'https://animeforallhuman.blogspot.com/'
 global.limitawal = '10'
 global.author = 'Sean'
 global.sessionName = 'session'
