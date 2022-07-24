@@ -975,6 +975,18 @@ case 'introda2old': case 'da2old':{
     m.reply('WELCOME TO ANIME WORLD 2🧋\nsilahkan isi intro di bawah ini !!\n╭════•›ꪶ ཻུ۪۪ꦽꦼ  INTRO MEMBER ꪶ ཻུ۪۪ꦽꦼ‹•════\n| • nama : \n| • umur : \n| • gender : \n| • asal : \n| • status : \n| • paham B. Jepang ? :\n| • tujuan join : \n╰═════ꪶ ཻུ۪۪ꦽꦼ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ═════\nMari saling mengajari dan berbagi pengalaman berbahasa Jepang 📑')
 }
 	break
+case 'helptia':{
+			if (!m.isGroup) throw mess.group
+					await 
+    m.reply('Ututututu kenapa sayang ?')
+}
+	break
+case 'sayang':{
+			if (!m.isGroup) throw mess.group
+					await 
+    m.reply('Kenapa sayang? Kangen?')
+}
+	break
                case 'vote': {
             if (!m.isGroup) throw mess.group
             if (m.chat in vote) throw `_Masih ada vote di chat ini!_\n\n*${prefix}hapusvote* - untuk menghapus vote`
